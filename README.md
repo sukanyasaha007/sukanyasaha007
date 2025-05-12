@@ -25,8 +25,6 @@ Welcome to my GitHub! I'm passionate about building scalable AI systems that sol
 
 ## 📌 Featured Projects
 
-## 📌 Featured Projects
-
 🧠 **Current Focus**: Building multi-modal AI agents | Exploring LLMs + RAG | Always learning
 
 - 🔥 [MultiMod-AI-Agent: Wildfire Detection](https://github.com/sukanyasaha007/MultiMod-AI-Agent)  

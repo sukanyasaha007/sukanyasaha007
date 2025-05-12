@@ -25,10 +25,25 @@ Welcome to my GitHub! I'm passionate about building scalable AI systems that sol
 
 ## 📌 Featured Projects
 
-- 🧼 [Face Mask Detection](https://github.com/sukanyasaha007/Face-Mask-Detection) – Real-time CV model using TensorFlow and OpenCV  
-- 🛍️ [Distributed eCommerce Site](https://github.com/sukanyasaha007/distributed-ecommerce-site) – Full-stack eCommerce platform with gRPC and REST  
-- 👗 [Virtual Stylist GAN](https://github.com/sukanyasaha007/virtual-stylist) – GAN-based fashion recommender using DeepFashion dataset  
-- 🌲 [NPS Travel Blog](https://github.com/sukanyasaha007/nps-travel-blog) – React-based national parks explorer powered by NPS API
+## 📌 Featured Projects
+
+🧠 **Current Focus**: Building multi-modal AI agents | Exploring LLMs + RAG | Always learning
+
+- 🔥 [MultiMod-AI-Agent: Wildfire Detection](https://github.com/sukanyasaha007/MultiMod-AI-Agent)  
+  A multi-modal reasoning agent that analyzes wildfire imagery and related documents using CLIP, RAG, and LLaMA3.
+
+- 🧼 [Face Mask Detection](https://github.com/sukanyasaha007/Face-Mask-Detection)  
+  Real-time computer vision model using TensorFlow + OpenCV to detect face masks.
+
+- 🛍️ [Distributed eCommerce Site](https://github.com/sukanyasaha007/distributed-ecommerce-site)  
+  A full-stack system using Flask, gRPC, MongoDB & SOAP APIs for secure, scalable transactions.
+
+- 👗 [Virtual Stylist GAN](https://github.com/sukanyasaha007/virtual-stylist)  
+  AI-based fashion recommender using GANs and the DeepFashion dataset.
+
+- 🌲 [NPS Travel Blog](https://github.com/sukanyasaha007/nps-travel-blog)  
+  React-based explorer for U.S. National Parks using the NPS public API.
+
 
 ---
 

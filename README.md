@@ -1,55 +1,51 @@
-# 👋 Hi, I'm Sukanya Saha
+# Sukanya Saha
 
-🎯 Software Engineer @ Intel | 🧠 AI/ML Enthusiast | 🎓 MS CS @ CU Boulder
+ML engineer working on LLM post-training with verifiable rewards, inference systems, and GPU performance.
+Currently applying RL and fine-tuning to hardware verification at Siemens; previously ML infrastructure at Intel.
 
-Welcome to my GitHub! I'm passionate about building scalable AI systems that solve real-world problems. With hands-on experience in multi-modal LLMs, CV, and ML pipelines, I thrive at the intersection of research and production.
+## Current work — Siemens (2025–present)
 
----
+- **RL post-training with verifiable rewards.** RLVR, DPO, and online GRPO (TRL) with vLLM-served rollouts,
+  using staged simulator compile and test outcomes as the reward signal for RTL verification and debug tasks.
+- **Domain fine-tuning at 32B scale.** QLoRA SFT of Qwen2.5-Coder-32B for SystemVerilog RTL generation:
+  first-pass accuracy 62% → 86% at half the average tool calls on internal evals.
+- **Agent evaluation.** Built the evaluation harness for an LLM auto-fix agent on NVIDIA's CVDP benchmark;
+  ablations isolated self-verification as the change that drove the accuracy gain.
+- **Agent infrastructure.** MCP platform exposing 30+ EDA tools (compile, simulate, lint, coverage) to LLM agents,
+  plus a hybrid RAG pipeline with 3.1x lower retrieval latency.
 
-## 🚀 What I’m Working On
-- 🤖 Building agentic systems for chip design using CLIP, FastAPI, LLaMA3, PGVector & RAG
-- 🧠 Developing QA chatbots with Ollama + vector DBs for internal docs
-- 📊 Automating dashboards and test pipelines with GitHub CI/CD
-- 🧬 Experimenting with anomaly detection & Grad-CAMs for wafer analytics
+## Previously
 
----
+- **Intel (2022–2025)** — Multi-GPU fine-tuning of Qwen (LoRA, QLoRA, MoE) using model and data parallelism,
+  tensor sharding, and gradient checkpointing. Multi-node vLLM serving with KV caching.
+  Computer-vision anomaly detection for chip design blocks, cutting QA test time from 6 months to 5 days.
+- **Google (2021–2022)** — Research apprentice: GAN-based dual-network apparel recommendation (DeepFashion).
+- **HSBC, Cognizant (2016–2020)** — Applied ML: segmentation, churn and attrition forecasting, NLP.
 
-## 🛠️ Tech Stack
-**Languages**: Python, Go, SQL  
-**Frameworks**: TensorFlow, PyTorch, Keras, Scikit-learn, Hugging Face, Flask, LangChain  
-**ML Tools**: XGBoost, LightGBM, OpenCV, Plotly, Matplotlib, MLflow  
-**Infra & DevOps**: Docker, GitHub Actions, PostgreSQL, MongoDB, GCP, AWS SageMaker  
-**LLMs & Multi-modal**: LLaMA, Mistral, CLIP, BLIP, JAX
+## Learning in public
 
----
+Reimplementing core papers from scratch, each verified numerically against a reference implementation.
 
-## 📌 Featured Projects
+| Project | Description |
+|---|---|
+| [paper-implementations](https://github.com/sukanyasaha007/paper-implementations) | GPT-2, Transformer, ViT, FlashAttention (Triton) |
 
-🧠 **Current Focus**: Building multi-modal AI agents | Exploring LLMs + RAG | Always learning
+<!-- Add as shipped: grpo-jax (flagship), LoRA/DPO rebuilds -->
 
-- 🔥 [MultiMod-AI-Agent: Wildfire Detection](https://github.com/sukanyasaha007/MultiMod-AI-Agent)  
-  A multi-modal reasoning agent that analyzes wildfire imagery and related documents using CLIP, RAG, and LLaMA3.
+## Tools
 
-- 🧼 [Face Mask Detection](https://github.com/sukanyasaha007/Face-Mask-Detection)  
-  Real-time computer vision model using TensorFlow + OpenCV to detect face masks.
+**Training and post-training:** PyTorch, JAX, TRL, PEFT, Hugging Face Transformers
+**Inference and serving:** vLLM, TensorRT, ONNX Runtime
+**GPU and performance:** CUDA C++, Triton, NCCL, ROCm, Nsight Systems, PyTorch Profiler
 
-- 🛍️ [Distributed eCommerce Site](https://github.com/sukanyasaha007/distributed-ecommerce-site)  
-  A full-stack system using Flask, gRPC, MongoDB & SOAP APIs for secure, scalable transactions.
+## Writing
 
-- 👗 [Virtual Stylist GAN](https://github.com/sukanyasaha007/virtual-stylist)  
-  AI-based fashion recommender using GANs and the DeepFashion dataset.
+<!-- Link technical posts here once published -->
 
-- 🌲 [NPS Travel Blog](https://github.com/sukanyasaha007/nps-travel-blog)  
-  React-based explorer for U.S. National Parks using the NPS public API.
+## Education
 
+MS Computer Science, University of Colorado Boulder
 
----
+## Contact
 
-## 📫 Connect with Me
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sukanyasaha007/)
-[![GitHub](https://img.shields.io/badge/GitHub-black?style=flat-square&logo=github)](https://github.com/sukanyasaha007)
-📧 sukanyasaha007@gmail.com
-
----
-
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=sukanyasaha007&show_icons=true&theme=radical)
+[LinkedIn](https://www.linkedin.com/in/sukanyasaha007/) · sukanyasaha007@gmail.com

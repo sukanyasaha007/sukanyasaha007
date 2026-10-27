@@ -7,8 +7,8 @@ Currently applying RL and fine-tuning to hardware verification at Siemens; previ
 
 - **RL post-training with verifiable rewards.** RLVR, DPO, and online GRPO (TRL) with vLLM-served rollouts,
   using staged simulator compile and test outcomes as the reward signal for RTL verification and debug tasks.
-- **Domain fine-tuning at 32B scale.** QLoRA SFT of Qwen2.5-Coder-32B for SystemVerilog RTL generation:
-  first-pass accuracy 62% → 86% at half the average tool calls on internal evals.
+- **Domain fine-tuning at 32B scale.** QLoRA SFT of Qwen for SystemVerilog RTL generation:
+  first-pass accuracy improved at half the average tool calls on internal evals.
 - **Agent evaluation.** Built the evaluation harness for an LLM auto-fix agent on NVIDIA's CVDP benchmark;
   ablations isolated self-verification as the change that drove the accuracy gain.
 - **Agent infrastructure.** MCP platform exposing 30+ EDA tools (compile, simulate, lint, coverage) to LLM agents,

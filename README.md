@@ -26,7 +26,7 @@ Currently applying RL and fine-tuning to hardware verification at Siemens; previ
 
 | Project | Description |
 |---|---|
-| [paper-implementations](https://github.com/sukanyasaha007/paper-implementations) | Papers reimplemented from scratch in PyTorch. Done: the Transformer (encoder-decoder, KV cache, grouped-query attention). Plus 23 concept notebooks (RoPE, FlashAttention, MoE routing, GRPO/DAPO) with reference checks. |
+| [paper-implementations](https://github.com/sukanyasaha007/paper-implementations) | Papers reimplemented from scratch in PyTorch: RLHF with PPO and DPO on GPT-2 (held-out reward 0.61 → 0.80), the Transformer (KV cache, GQA), LoRA, and the Stable Diffusion v1.5 architecture (parameter counts match v1.5 exactly). Plus 23 concept notebooks (RoPE, FlashAttention, MoE routing, GRPO/DAPO). |
 | [Agentica](https://github.com/sukanyasaha007/Hackathon-31) | Hackathon: LLM agent that classifies products into HTS tariff codes using hybrid RAG (vector + BM25 + cross-encoder re-ranking) and 18 MCP-style tools, benchmarked against a no-RAG baseline. |
 | [SpecGuard](https://github.com/sukanyasaha007/hackathon-specguard) | Hackathon: checks an LLM agent's code against its spec (spec quality, implementation drift via AST + RAG, eval coverage). LangGraph + Claude. |
 

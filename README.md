@@ -22,25 +22,23 @@ Currently applying RL and fine-tuning to hardware verification at Siemens; previ
 - **Google (2021–2022)** — Research apprentice: GAN-based dual-network apparel recommendation (DeepFashion).
 - **HSBC, Cognizant (2016–2020)** — Applied ML: segmentation, churn and attrition forecasting, NLP.
 
-## Learning in public
-
-Reimplementing core papers from scratch, each verified numerically against a reference implementation.
+## Public projects
 
 | Project | Description |
 |---|---|
-| [paper-implementations](https://github.com/sukanyasaha007/paper-implementations) | GPT-2, Transformer, ViT, FlashAttention (Triton) |
+| [paper-implementations](https://github.com/sukanyasaha007/paper-implementations) | Papers reimplemented from scratch in PyTorch. Done: the Transformer (encoder-decoder, KV cache, grouped-query attention). Plus 23 concept notebooks (RoPE, FlashAttention, MoE routing, GRPO/DAPO) with reference checks. |
+| [Agentica](https://github.com/sukanyasaha007/Hackathon-31) | Hackathon: LLM agent that classifies products into HTS tariff codes using hybrid RAG (vector + BM25 + cross-encoder re-ranking) and 18 MCP-style tools, benchmarked against a no-RAG baseline. |
+| [SpecGuard](https://github.com/sukanyasaha007/hackathon-specguard) | Hackathon: checks an LLM agent's code against its spec (spec quality, implementation drift via AST + RAG, eval coverage). LangGraph + Claude. |
 
 <!-- Add as shipped: grpo-jax (flagship), LoRA/DPO rebuilds -->
 
 ## Tools
 
-**Training and post-training:** PyTorch, JAX, TRL, PEFT, Hugging Face Transformers
-**Inference and serving:** vLLM, TensorRT, ONNX Runtime
-**GPU and performance:** CUDA C++, Triton, NCCL, ROCm, Nsight Systems, PyTorch Profiler
+- **Training and post-training:** PyTorch, JAX, TRL, PEFT, Hugging Face Transformers
+- **Inference and serving:** vLLM, TensorRT, ONNX Runtime
+- **GPU and performance:** CUDA C++, Triton, NCCL, ROCm, Nsight Systems, PyTorch Profiler
 
-## Writing
-
-<!-- Link technical posts here once published -->
+<!-- ## Writing: link technical posts here once published -->
 
 ## Education
 
